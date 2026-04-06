@@ -106,7 +106,7 @@ Return Value គឺជាលទ្ធផលដែល Function ផ្ញើត្
 | `print` | `return` |
 | :--- | :--- |
 | ```def add(a, b):``` | ```def add(a, b):``` |
-| ```print(a + b)``` | ```def add(a, b):``` |
+| ```print(a + b)``` | ```return a + b``` |
 | 👉 បង្ហាញលទ្ធផល ប៉ុណ្ណោះ | `x = add(2, 3)` |
 | 👉 មិនអាចយកទៅប្រើបន្តបាន | `y = x * 10`<br>`print(y)   # 50` |
 
